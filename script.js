@@ -4,8 +4,6 @@ const btnMenu = document.querySelector(".mobile-menu");
 const btnClose = document.querySelector(".menu-close");
 const mobileMenu = document.querySelector(".menu");
 
-// console.log(btnClose);
-
 btnMenu.addEventListener("click", () => {
   mobileMenu.classList.add("show");
 
