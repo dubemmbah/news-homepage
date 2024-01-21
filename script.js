@@ -8,10 +8,12 @@ btnMenu.addEventListener("click", () => {
   mobileMenu.classList.add("show");
 
   document.body.classList.add("menu-open");
+  document.documentElement.classList.add("menu-open");
 });
 
 btnClose.addEventListener("click", () => {
   mobileMenu.classList.remove("show");
 
   document.body.classList.remove("menu-open");
+  document.documentElement.remove("menu-open");
 });
