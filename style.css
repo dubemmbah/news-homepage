@@ -185,7 +185,7 @@ body {
   display: none;
 }
 
-.left h2 {
+.left h1 {
   flex: 0 0 50%;
   font-size: 5.5rem;
   align-self: stretch;
@@ -333,7 +333,7 @@ body {
     grid-template-columns: 2fr 1fr;
   }
 
-  .left h2 {
+  .left h1 {
     font-size: 5rem;
   }
 
@@ -388,7 +388,7 @@ body {
     margin-bottom: 3rem;
   }
 
-  .left h2 {
+  .left h1 {
     grid-column: 1 / -1;
     font-size: 7.2rem;
     margin-bottom: 3rem;
@@ -468,7 +468,7 @@ body {
     padding: 2rem;
   }
 
-  .left h2 {
+  .left h1 {
     font-size: 5.2rem;
   }
 
